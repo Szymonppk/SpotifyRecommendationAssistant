@@ -1,0 +1,21 @@
+# Web framework
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+
+# Spotify API
+spotipy==2.23.0
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# HTTP client & Last.fm
+httpx==0.26.0
+
+# Config & env
+python-dotenv==1.0.1
+pydantic-settings==2.1.0
+
+# Optional: scheduling (fetch recently played periodically)
+apscheduler==3.10.4
